@@ -5,10 +5,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
+import org.testng.asserts.SoftAssert;
+
 import java.time.Duration;
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -58,7 +61,25 @@ public class BaseClass {
         }
     }
 
-    @AfterClass
+    public void hoverOverElement(WebElement element) {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).perform();
+    }
+
+    public void clickElement(WebElement element) {
+        element.click();
+    }
+
+    public void verifyPageURLAndTitle(String expectedUrl, String expectedTitle) {
+        SoftAssert softAssert = new SoftAssert();
+
+        softAssert.assertEquals(driver.getCurrentUrl(), expectedUrl, "URL mismatch");
+        softAssert.assertEquals(driver.getTitle(), expectedTitle, "Title mismatch");
+
+        softAssert.assertAll();
+    }
+
+    //@AfterClass
     public void tearDown() {
         if (driver != null) {
             driver.quit();
