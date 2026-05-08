@@ -1,6 +1,5 @@
-package testCases;
+package headerTestCases;
 
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObjects.Homepage;
@@ -21,7 +20,7 @@ public class LoginButtonTest extends BaseClass {
          driver.switchTo().window(driver.getWindowHandles().stream().skip(1).findFirst().orElseThrow(() -> new RuntimeException("New window not found")));
          driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
          String expectedUrl = "https://netbanking.paytm.bank.in/";
-         String expectedTitle = "Paytm Payments Bank || Corporate Login";
+         String expectedTitle = "Paytm Payments Bank | Login";
          verifyPageURLAndTitle(expectedUrl, expectedTitle);
      }
 
@@ -31,7 +30,7 @@ public class LoginButtonTest extends BaseClass {
         driver.switchTo().window(driver.getWindowHandles().stream().skip(1).findFirst().orElseThrow(() -> new RuntimeException("New window not found")));
         driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
         String expectedUrl = "https://webapp.paytm.bank.in/";
-        String expectedTitle = "Paytm Payments Bank || Personal Login";
+        String expectedTitle = "Paytm Payments Bank | Login";
         verifyPageURLAndTitle(expectedUrl, expectedTitle);
      }
 }

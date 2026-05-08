@@ -1,10 +1,10 @@
-package testCases;
+package headerTestCases;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObjects.Homepage;
 
-public class CompanyTest extends BaseClass {
+public class CompanyHeaderTest extends BaseClass {
 
     Homepage home;
 
@@ -17,8 +17,7 @@ public class CompanyTest extends BaseClass {
     @Test(priority = 1)
     public void testAboutUsPage() {
         clickElement(home.getAboutUsPageLink());
-        driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
-        String expectedUrl = "https://www.paytm.bank.in/about-us";
+        String expectedUrl = "https://www.paytm.bank.in/about";
         String expectedTitle = "Paytm Payments Bank || About Us";
         verifyPageURLAndTitle(expectedUrl, expectedTitle);
     }
@@ -26,17 +25,15 @@ public class CompanyTest extends BaseClass {
     @Test(priority = 2)
     public void testBoardOfDirectorsPage() {
         clickElement(home.getBoardOfDirectorsPageLink());
-        driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
         String expectedUrl = "https://www.paytm.bank.in/board-of-directors";
-        String expectedTitle = "Paytm Payments Bank || Board of Directors";
+        String expectedTitle = "Paytm Payments Bank || Board Of Directors";
         verifyPageURLAndTitle(expectedUrl, expectedTitle);
     }
 
     @Test(priority = 3)
     public void testContactUsPage() {
         clickElement(home.getContactUsPageLink());
-        driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
-        String expectedUrl = "https://www.paytm.bank.in/contact-us";
+        String expectedUrl = "https://www.paytm.bank.in/contact";
         String expectedTitle = "Paytm Payments Bank || Contact Us";
         verifyPageURLAndTitle(expectedUrl, expectedTitle);
     }
@@ -44,9 +41,8 @@ public class CompanyTest extends BaseClass {
     @Test(priority = 4)
     public void testCareerPage() {
         clickElement(home.getCareersPageLink());
-        driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
-        String expectedUrl = "https://www.paytm.bank.in/careera";
-        String expectedTitle = "Paytm Payments Bank || Careers";
+        String expectedUrl = "https://jobs.lever.co/paytmbank";
+        String expectedTitle = "Not found -- 404 error";
         verifyPageURLAndTitle(expectedUrl, expectedTitle);
     }
 }

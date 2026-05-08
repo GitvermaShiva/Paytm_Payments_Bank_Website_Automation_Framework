@@ -1,4 +1,4 @@
-package testCases;
+package headerTestCases;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,9 +17,8 @@ public class LoanReferralTest extends BaseClass {
     @Test
     public void testLoanReferralPage() {
         clickElement(home.getLoanReferralPageLink());
-        driver.manage().timeouts().pageLoadTimeout(java.time.Duration.ofSeconds(10));
-        String expectedUrl = "https://www.paytm.bank.in/loan-referral/personal-loan-referral";
-        String expectedTitle = "Paytm Payments Bank || Personal Loan Referral";
+        String expectedUrl = "https://www.paytm.bank.in/loan-referral";
+        String expectedTitle = "Paytm Payments Bank || Loan Referral";
         verifyPageURLAndTitle(expectedUrl, expectedTitle);
     }
 }
