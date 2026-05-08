@@ -4,15 +4,33 @@
 <suite name="Paytm Automation Test Suite" verbose="1">
 
     <test name="Header Links Tests">
+        <parameter name="Execution_Environment" value="local"/>
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
         <classes>
-            <class name="testCases.CompanyLogoTest"/>
-            <class name="testCases.PersonalBankingTest"/>
-            <class name="testCases.BusinessBankingTest"/>
-            <class name="testCases.LoanReferralTest"/>
-            <class name="testCases.CompanyTest"/>
-            <class name="testCases.SupportTest"/>
-            <class name="testCases.LoginButtonTest"/>
+            <class name="headerTestCases.CompanyLogoTest"/>
+            <class name="headerTestCases.PersonalBankingTest"/>
+            <class name="headerTestCases.BusinessBankingTest"/>
+            <class name="headerTestCases.LoanReferralTest"/>
+            <class name="headerTestCases.CompanyHeaderTest"/>
+            <class name="headerTestCases.SupportTest"/>
+            <class name="headerTestCases.LoginButtonTest"/>
         </classes>
     </test>
+
+    <test name="Footer Links Tests">
+        <parameter name="Execution_Environment" value="local"/>
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="footerTestCases.ProductsTest"/>
+            <class name="footerTestCases.CompanyFooterTest"/>
+            <class name="footerTestCases.InformationTest"/>
+            <class name="footerTestCases.PoliciesTest"/>
+        </classes>
+    </test>
+
 </suite>
 
