@@ -81,7 +81,7 @@ mvn test -Dtest=TestClassName
 Run tests in parallel:
 
 ```bash
-mvn test -DsuiteXmlFile=testng.xml
+mvn test -DsuiteXmlFile=master_testng.xml
 ```
 
 ## Configuration
