@@ -1,0 +1,160 @@
+18:39:57.691 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Setting up the test environment...
+18:39:57.711 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Remote Environment Setup
+18:40:09.453 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Hovering over Company button
+18:40:09.845 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Company dropdown displayed successfully
+18:40:09.850 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - ***** Starting test: testAboutUsPage *****
+18:40:09.850 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Clicking on About Us page link
+18:40:10.346 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Verifying About Us page URL and title
+18:40:10.353 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Waiting for expected URL: https://www.paytm.bank.in/about
+18:40:10.572 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Waiting for expected page title: Paytm Payments Bank || About Us
+18:40:10.715 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Verifying current URL with expected URL
+18:40:10.719 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Verifying current title with expected title
+18:40:10.720 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Page URL and Title verification completed successfully
+18:40:10.720 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - ***** Finished test: testAboutUsPage *****
+18:40:10.743 [TestNG-tests-1] INFO  testCases.TS03_BusinessBankingTest - Setting up the test environment...
+18:40:10.743 [TestNG-tests-1] INFO  testCases.TS03_BusinessBankingTest - Remote Environment Setup
+18:40:32.696 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:40:32.698 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testAboutUsPage *****
+18:40:32.698 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on About Us page link
+18:40:35.698 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Setting up the test environment...
+18:40:35.709 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Remote Environment Setup
+18:40:56.256 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:40:56.259 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testCitizenCharterPage *****
+18:40:56.260 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Citizen Charter page link
+18:41:02.960 [TestNG-tests-2] INFO  testCases.TS08_ProductsTest - Setting up the test environment...
+18:41:02.960 [TestNG-tests-2] INFO  testCases.TS08_ProductsTest - Remote Environment Setup
+18:43:10.795 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - Setting up the test environment...
+18:43:10.797 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - Remote Environment Setup
+18:44:03.007 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Setting up the test environment...
+18:44:03.010 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Remote Environment Setup
+18:45:01.800 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - Initializing Homepage object
+18:45:01.807 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - ***** Starting test: testCompanyLogoVisible *****
+18:45:01.807 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - Verifying company logo visibility on homepage
+18:45:01.874 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - ***** Finished test: testCompanyLogoVisible *****
+18:45:01.876 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Setting up the test environment...
+18:45:01.877 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Remote Environment Setup
+18:45:28.776 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Hovering over Loan Referral button
+18:45:28.956 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Loan Referral dropdown displayed successfully
+18:45:28.957 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - ***** Starting test: testLoanReferralPage *****
+18:45:28.957 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Clicking on Loan Referral page link
+18:45:29.297 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Verifying Loan Referral page URL and title
+18:45:29.297 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Waiting for expected URL: https://www.paytm.bank.in/loan-referral
+18:45:29.676 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Waiting for expected page title: Paytm Payments Bank || Loan Referral
+18:45:29.718 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Verifying current URL with expected URL
+18:45:29.718 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Verifying current title with expected title
+18:45:29.718 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - Page URL and Title verification completed successfully
+18:45:29.718 [TestNG-tests-1] INFO  testCases.TS04_LoanReferralTest - ***** Finished test: testLoanReferralPage *****
+18:45:29.833 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Setting up the test environment...
+18:45:29.834 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Remote Environment Setup
+18:45:33.674 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Hovering over Personal Banking button
+18:45:33.877 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Personal Banking dropdown displayed successfully
+18:45:33.877 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - ***** Starting test: testSavingsAccountPage *****
+18:45:33.877 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Clicking on Savings Account page link
+18:45:34.256 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Verifying Savings Account page URL and title
+18:45:34.256 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Waiting for expected URL: https://www.paytm.bank.in/personal-banking/savings-account
+18:45:40.183 [TestNG-tests-1] INFO  testCases.TS06_SupportTest - Setting up the test environment...
+18:45:40.188 [TestNG-tests-1] INFO  testCases.TS06_SupportTest - Remote Environment Setup
+18:46:10.692 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:10.697 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testTermsAndConditionsPage *****
+18:46:10.697 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Terms And Conditions page link
+18:46:13.218 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:13.218 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testDepositAndInterestRatePolicyPage *****
+18:46:13.218 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Deposit And Interest Rate Policy PDF link
+18:46:19.979 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:19.979 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testDisclaimersPage *****
+18:46:19.979 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Disclaimers page link
+18:46:21.874 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:46:21.874 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testFAQsPage *****
+18:46:21.874 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on FAQs page link
+18:46:23.001 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:23.003 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testCustomerCompensationPolicyPage *****
+18:46:23.003 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Customer Compensation Policy page link
+18:46:24.553 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:24.553 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testPrivacyPolicyPage *****
+18:46:24.553 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Privacy Policy page link
+18:46:25.698 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:25.702 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testCustomerGrievanceRedressalPolicyPage *****
+18:46:25.703 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Customer Grievance Redressal Policy page link
+18:46:27.088 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:27.089 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testImportantNoticesPage *****
+18:46:27.089 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Important Notices page link
+18:46:28.812 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:28.812 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testCharterOfCustomerRightsPage *****
+18:46:28.814 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Charter Of Customer Rights page link
+18:46:30.476 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:46:30.477 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testContactUsPage *****
+18:46:30.477 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on Contact Us page link
+18:46:31.433 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:31.439 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testRegulatoryDisclosuresPage *****
+18:46:31.439 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Regulatory Disclosures page link
+18:46:33.095 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:46:33.097 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testActiveKYCPointsPage *****
+18:46:33.106 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on Active KYC Points page link
+18:46:35.073 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:35.073 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testSafetyAndSecurityPage *****
+18:46:35.073 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Safety And Security page link
+18:46:37.727 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:37.729 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testWhistleBlowerPolicyPage *****
+18:46:37.730 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Whistle Blower Policy PDF link
+18:46:39.485 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:39.493 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testCodeOfCommitmentPage *****
+18:46:39.493 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Code Of Commitment page link
+18:46:40.703 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:40.703 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testDICGCInsuranceCover *****
+18:46:40.703 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on DICGC Insurance Cover page link
+18:46:41.806 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:46:41.815 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testRegisterKYCPointPage *****
+18:46:41.819 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on Register KYC Point page link
+18:46:42.670 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:42.672 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testAadhaarDataPrivacyPolicyPage *****
+18:46:42.672 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Aadhaar Data Privacy Policy page link
+18:46:43.970 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:43.973 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testRatesAndCharges *****
+18:46:43.973 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Rates And Charges page link
+18:46:45.615 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:46:45.615 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testTerminateKYCPointsPage *****
+18:46:45.616 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on Terminate KYC Points page link
+18:46:46.886 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Homepage object initialized successfully
+18:46:46.888 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - ***** Starting test: testCareersPage *****
+18:46:46.888 [TestNG-tests-2] INFO  testCases.TS09_CompanyFooterTest - Clicking on Careers page link
+18:46:49.125 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.126 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testDoorstepBankingPolicyPage *****
+18:46:49.126 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Doorstep Banking Policy PDF link
+18:46:49.143 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:49.143 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testSelectionProcessForIndependentDirectors *****
+18:46:49.143 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Selection Process For Independent Directors PDF link
+18:46:49.156 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:49.162 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testCodeOfConductForIndependentDirectors *****
+18:46:49.163 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Code Of Conduct For Independent Directors PDF link
+18:46:49.167 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.180 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testFraudPreventionPage *****
+18:46:49.181 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Fraud Prevention page link
+18:46:49.190 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Homepage object initialized successfully
+18:46:49.191 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - ***** Starting test: testCodeOfConductForEmployees *****
+18:46:49.191 [TestNG-tests-2] INFO  testCases.TS10_InformationTest - Clicking on Code Of Conduct For Employees PDF link
+18:46:49.197 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.202 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testPolicyOnAppointmentOfStatutoryAuditorPage *****
+18:46:49.202 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Policy On Appointment Of Statutory Auditor PDF link
+18:46:49.207 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.211 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testContactDetailsOfPNOPage *****
+18:46:49.212 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Contact Details Of PNO PDF link
+18:46:49.217 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.222 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testContactDetailsOfLendersGROPage *****
+18:46:49.222 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Contact Details Of Lenders GRO PDF link
+18:46:49.226 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.229 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testCorporateSocialResponsibilityPolicyPage *****
+18:46:49.229 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Corporate Social Responsibility Policy PDF link
+18:46:49.232 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.236 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testNominationAndRenumerationPolicyPage *****
+18:46:49.237 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Nomination And Renumeration Policy PDF link
+18:46:49.242 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.244 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testNachAndChequeDishonourPolicyPage *****
+18:46:49.244 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on NACH And Cheque Dishonour Policy PDF link
+18:46:49.249 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Homepage object initialized successfully
+18:46:49.250 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - ***** Starting test: testAntiBriberyPolicyPage *****
+18:46:49.250 [TestNG-tests-2] INFO  testCases.TS11_PoliciesTest - Clicking on Anti Bribery Policy PDF link
+18:48:40.225 [TestNG-tests-1] INFO  testCases.TS05_CompanyHeaderTest - Hovering over Company button
+18:48:40.225 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - Initializing Homepage object
+18:48:40.233 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - ***** Starting test: testCompanyLogoClickable *****
+18:48:40.235 [TestNG-tests-1] INFO  testCases.TS01_CompanyLogoTest - Clicking on company logo
+18:48:40.261 [TestNG-tests-1] INFO  testCases.TS02_PersonalBankingTest - Hovering over Personal Banking button
