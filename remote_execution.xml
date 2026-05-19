@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="PPBL Remote Test Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager" />
+    </listeners>
+
+    <test name="Header Links Tests">
+
+        <parameter name="Execution_Environment" value="remote"/>
+        <parameter name="os" value="linux"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="headless" value="false"/>
+
+        <classes>
+<!--            <class name="testBase.Setup_DockerGrid"/>-->
+
+            <class name="testCases.TS01_CompanyLogoTest"/>
+            <class name="testCases.TS02_PersonalBankingTest"/>
+            <class name="testCases.TS03_BusinessBankingTest"/>
+            <class name="testCases.TS04_LoanReferralTest"/>
+            <class name="testCases.TS05_CompanyHeaderTest"/>
+            <class name="testCases.TS06_SupportTest"/>
+<!--            <class name="testCases.TS07_LoginButtonTest"/>-->
+        </classes>
+    </test>
+
+    <test name="Footer Links Tests">
+
+        <parameter name="Execution_Environment" value="remote"/>
+        <parameter name="os" value="linux"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="headless" value="false"/>
+
+        <classes>
+            <class name="testCases.TS08_ProductsTest"/>
+            <class name="testCases.TS09_CompanyFooterTest"/>
+            <class name="testCases.TS10_InformationTest"/>
+            <class name="testCases.TS11_PoliciesTest"/>
+        </classes>
+    </test>
+
+</suite>
